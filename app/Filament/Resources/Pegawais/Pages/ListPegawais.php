@@ -15,9 +15,7 @@ class ListPegawais extends ListRecords
     {
         return [
             CreateAction::make(),
-            Action::make('custom-aja')
-                ->url(CustomAja::getUrl())
-                ->label('Custom Aja'),
+
         ];
     }
 }

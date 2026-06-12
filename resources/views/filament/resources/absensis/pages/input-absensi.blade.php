@@ -1,3 +1,10 @@
 <x-filament-panels::page>
-    {{-- Page content --}}
+    <form wire:submit="save">
+        {{ $this->form }}
+
+        <div class="mt-10 flex justify-end gap-x-3">
+            {{ $this->getFormActions()[0] }}
+        </div>
+    </form>
+
 </x-filament-panels::page>

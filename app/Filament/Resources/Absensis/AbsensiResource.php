@@ -52,7 +52,7 @@ class AbsensiResource extends Resource
             'index' => ListAbsensis::route('/'),
             'create' => CreateAbsensi::route('/create'),
             'input-absensi' => InputAbsensi::route('/input-absensi'),
-            'view' => ViewAbsensi::route('/{record}'),
+            // 'view' => ViewAbsensi::route('/{record}'),
             'edit' => EditAbsensi::route('/{record}/edit'),
         ];
     }

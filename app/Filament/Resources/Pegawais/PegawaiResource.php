@@ -6,7 +6,6 @@ use App\Filament\Resources\Pegawais\Pages\CreatePegawai;
 use App\Filament\Resources\Pegawais\Pages\EditPegawai;
 use App\Filament\Resources\Pegawais\Pages\ListPegawais;
 use App\Filament\Resources\Pegawais\Pages\ViewPegawai;
-use App\Filament\Resources\Pegawais\Pages\CustomAja;
 
 use App\Filament\Resources\Pegawais\Schemas\PegawaiForm;
 use App\Filament\Resources\Pegawais\Schemas\PegawaiInfolist;
