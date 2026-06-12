@@ -1,0 +1,23 @@
+<?php
+
+namespace App\Filament\Resources\Pegawais\Pages;
+
+use App\Filament\Resources\Pegawais\PegawaiResource;
+use Filament\Actions\CreateAction;
+use Filament\Resources\Pages\ListRecords;
+use Filament\Actions\Action;
+
+class ListPegawais extends ListRecords
+{
+    protected static string $resource = PegawaiResource::class;
+
+    protected function getHeaderActions(): array
+    {
+        return [
+            CreateAction::make(),
+            Action::make('custom-aja')
+                ->url(CustomAja::getUrl())
+                ->label('Custom Aja'),
+        ];
+    }
+}
